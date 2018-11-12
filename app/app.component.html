@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<div>
+  <nav>
+    <a routerLink="home">Home</a>
+    <a routerLink="blogs">Blog</a>
+    <a routerLink="blogCreate">Create Blog</a>
+    <a routerLink="users">Users</a>
+
+  </nav>
+</div>
+<hr/>
+<div>
+  <div>
+      <!--<app-blog-posts
+        [path]="staticPath">
+      </app-blog-posts>-->
+      <router-outlet></router-outlet>
+  </div>
+</div>
+

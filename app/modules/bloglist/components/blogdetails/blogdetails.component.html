@@ -1,0 +1,6 @@
+<h1>Blog Details</h1>
+
+<div *ngIf="blog">
+  <h3>{{blog.blogTitle}}<span> <a routerLink="/blogUpdate/{{blog.blogId}}">Update</a></span></h3>
+  <button (click)="deleteBlog()">Delete Blog</button>
+</div>
